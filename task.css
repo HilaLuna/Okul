@@ -1,0 +1,32 @@
+h1 b{
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+p {
+color: rgb(9, 141, 101);
+font-size: 20px;
+text-align: center;
+border: 30px rgb(71, 5, 16);
+}
+
+div {
+    color: tomato;
+    font-size: 60px;
+    text-align: center;
+    background-color: blue;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width:768px); {
+    div {
+        color: yellowgreen;
+        font-size: 40px;
+        text-align: center;
+        background-color: goldenrod;
+        
+    }
+}
